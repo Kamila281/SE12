@@ -4,5 +4,13 @@ using namespace std;
 
 int main()
 {
+    system("chcp 1251");
+    system("cls");
+    int num1, num2;
+    cout << "Введите первое целое число: ";
+    cin >> num1;
+    cout << "Введите второе целое число: ";
+    cin >> num2;
+    cout << "Вы ввели: " << num1 << " и " << num2 << endl;
     return 0;
 }
