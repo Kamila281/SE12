@@ -13,5 +13,6 @@ int main()
     cin >> num2;
     cout << "Вы ввели: " << num1 << " и " << num2 << endl;
     cout << "Сумма:" << (num1+num2) << endl;
+    cout << "Разность:" << (num1-num2) << endl;
         return 0;
 }
